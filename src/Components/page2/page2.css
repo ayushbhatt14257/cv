@@ -1,0 +1,285 @@
+section {
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+.main_container {
+    background-color: whitesmoke;
+}
+
+.page2_container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    background-color: white;
+}
+
+
+/* ===================== Technical Skills ======================== */
+
+.Tskills {
+    margin-bottom: 4rem;
+}
+
+.Tskills h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.Tskills_list {
+    margin-bottom: 2rem;
+}
+
+.Tskills_list h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #515151;
+}
+
+.Tskills_circle img {
+    width: 4%;
+    margin-right: 1.6rem;
+}
+
+
+/* ======================= AWARDS =================================== */
+
+.awards h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.awards_info {
+    margin-bottom: 4rem;
+}
+
+.awards_info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+}
+
+.awards_info h2 {
+    margin-bottom: .5rem;
+}
+
+.awards_info ul li {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+    margin-left: 1.6rem;
+}
+
+
+/* ======================= Certifications =================================== */
+
+.certificate h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.certificate_info {
+    margin-bottom: 4rem;
+}
+
+.certificate_info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+}
+
+.certificate_info h2 {
+    margin-bottom: .5rem;
+}
+
+.certificate_info ul li {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+    margin-left: 1.6rem;
+}
+
+
+/* ===================== WORK EXPERIENCE ========================================== */
+
+.work h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.work_info {
+    margin-bottom: 3rem;
+}
+
+.work_info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+}
+
+.work_info h2 {
+    margin-bottom: .5rem;
+}
+
+.work_info h3 {
+    margin-top: 2rem;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+    text-align: justify;
+}
+
+.work img {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+
+/** ============== MEDIA QUERIES (SMALL) ============ */
+
+@media screen and (max-width: 600px) {
+    section {
+        padding-bottom: 1rem;
+        position: relative;
+    }
+    .main_container {
+        background-color: whitesmoke;
+    }
+    .page2_container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: .5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 4%;
+        background-color: white;
+    }
+    /* ===================== Technical Skills ======================== */
+    .Tskills {
+        margin-bottom: 2rem;
+    }
+    .Tskills h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .Tskills_list {
+        margin-bottom: 1rem;
+    }
+    .Tskills_list h2 {
+        font-weight: 700;
+        font-size: .5rem;
+        margin-bottom: 0rem;
+        color: #515151;
+    }
+    .Tskills_circle img {
+        width: 4%;
+        margin-right: .3rem;
+    }
+    /* ======================= AWARDS =================================== */
+    .awards {
+        margin-bottom: 2rem;
+    }
+    .awards h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .awards_info {
+        margin-bottom: 1rem;
+    }
+    .awards_info p {
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+    }
+    .awards_info h2 {
+        margin-bottom: .5rem;
+        font-size: 0.5rem;
+    }
+    .awards_info ul li {
+        width: 100%;
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+        margin-left: .6rem;
+    }
+    /* ======================= Certifications =================================== */
+    .certificate h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .certificate_info {
+        margin-bottom: 1rem;
+    }
+    .certificate_info p {
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+    }
+    .certificate_info h2 {
+        margin-bottom: .5rem;
+        font-size: .5rem;
+    }
+    .certificate_info ul li {
+        width: 100%;
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+        margin-left: .6rem;
+    }
+    /* ===================== WORK EXPERIENCE ========================================== */
+    .work h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .work_info {
+        margin-bottom: 1rem;
+    }
+    .work_info p {
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: 0.5rem;
+    }
+    .work_info h2 {
+        margin-bottom: .5rem;
+        font-size: 0.5rem;
+    }
+    .work_info h3 {
+        margin-top: 1rem;
+        width: 100%;
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: 0rem;
+        text-align: justify;
+    }
+    .work img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,331 @@
+section {
+    padding-bottom: 6rem;
+    background-color: whitesmoke;
+}
+
+.main_container {
+    background-color: whitesmoke;
+}
+
+.page3_container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    background-color: white;
+}
+
+
+/* ===================== Language ======================== */
+
+.Languages {
+    margin-bottom: 4rem;
+}
+
+.Languages h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.Languages_list {
+    margin-bottom: 2rem;
+}
+
+.Languages_list h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #515151;
+}
+
+.Languages_circle img {
+    width: 4%;
+    margin-right: 1.6rem;
+}
+
+
+/* ======================== Internship ================== */
+
+.internship h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.internship_info {
+    margin-bottom: 4rem;
+}
+
+.internship_info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+}
+
+.internship_info h2 {
+    margin-bottom: .5rem;
+}
+
+.internship_info ul li {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+    margin-left: 1.6rem;
+}
+
+
+/* ============================ PERSONAL INTERST ======================= */
+
+.intrest h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.intrest_info {
+    margin-bottom: 2rem;
+}
+
+.intrest_info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    /* margin-bottom: .5rem; */
+}
+
+
+/* ===================== PROjects ========================================== */
+
+.project h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.project_info {
+    margin-bottom: 3rem;
+}
+
+.project_info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+}
+
+.project_info h2 {
+    margin-bottom: .5rem;
+}
+
+.project_info h3 {
+    margin-top: 2rem;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+    text-align: justify;
+}
+
+.project img {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+
+/* ===================== PROjects ========================================== */
+
+.training h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.training_info {
+    margin-bottom: 3rem;
+}
+
+.training_info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+}
+
+.training_info h2 {
+    margin-bottom: .5rem;
+}
+
+.training_info h3 {
+    margin-top: 2rem;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: .5rem;
+    text-align: justify;
+}
+
+.training img {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+
+/** ============== MEDIA QUERIES (SMALL) ============ */
+
+@media screen and (max-width: 600px) {
+    section {
+        padding-bottom: 1rem;
+        background-color: whitesmoke;
+    }
+    .main_container {
+        background-color: whitesmoke;
+    }
+    .page3_container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 1rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 4%;
+        background-color: white;
+    }
+    /* ===================== Language ======================== */
+    .Languages {
+        margin-bottom: 2rem;
+    }
+    .Languages h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .Languages_list {
+        margin-bottom: 1rem;
+    }
+    .Languages_list h2 {
+        font-weight: 700;
+        font-size: .5rem;
+        margin-bottom: .5rem;
+        color: #515151;
+    }
+    .Languages_circle img {
+        width: 4%;
+        margin-right: .3rem;
+    }
+    /* ======================== Internship ================== */
+    .internship h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .internship_info {
+        margin-bottom: 4rem;
+    }
+    .internship_info p {
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+    }
+    .internship_info h2 {
+        margin-bottom: .5rem;
+        font-size: .5rem;
+    }
+    .internship_info ul li {
+        width: 100%;
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+        margin-left: .6rem;
+    }
+    /* ============================ PERSONAL INTERST ======================= */
+    .intrest h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .intrest_info {
+        margin-bottom: 1rem;
+    }
+    .intrest_info p {
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        /* margin-bottom: .5rem; */
+    }
+    /* ===================== PROjects ========================================== */
+    .project {
+        margin-bottom: 3rem;
+    }
+    .project h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .project_info {
+        margin-bottom: 1rem;
+    }
+    .project_info p {
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+    }
+    .project_info h2 {
+        margin-bottom: .5rem;
+        font-size: 0.5rem;
+    }
+    .project_info h3 {
+        margin-top: 0rem;
+        width: 100%;
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+        text-align: justify;
+    }
+    .project img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    /* ===================== PROjects ========================================== */
+    .training h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .training_info {
+        margin-bottom: 3rem;
+    }
+    .training_info p {
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+    }
+    .training_info h2 {
+        margin-bottom: .5rem;
+        font-size: .5rem;
+    }
+    .training_info h3 {
+        margin-top: 0rem;
+        width: 100%;
+        font-weight: 500;
+        font-size: .5rem;
+        color: #515151;
+        margin-bottom: .5rem;
+        text-align: justify;
+    }
+    .training img {
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+}
